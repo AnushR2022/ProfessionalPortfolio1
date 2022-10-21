@@ -63,7 +63,7 @@ full_message_temp ="""
 st.set_page_config(page_title = "Professional Portfolio",page_icon = ":tada:",layout = "wide")
 
 # ---- LOAD ASSETS ----
-img_contact_form = Image.open("/Volumes/ExDrive/Images/Hello.png")
+
 
 def load_lottieurl(url: str):
     r = requests.get(url)

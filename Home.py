@@ -137,8 +137,7 @@ if selected == "Resume":
     col1, col2 = st.columns(2, gap = "small")   
 
     with col1:
-        img = Image.open("/Volumes/ExDrive/Images/pic.jpeg")
-        st.image(img, width = 230)
+        st.empty()
     with col2:
         st.title(NAME)
         st.write(DESCRIPTION)

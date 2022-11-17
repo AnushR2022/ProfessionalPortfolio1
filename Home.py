@@ -137,8 +137,7 @@ if selected == "Resume":
     col1, col2 = st.columns(2, gap = "small")   
 
     with col1:
-        image = Image.open('./Documents/General UIUC/pic Small.png')
-        st.image(image, caption = 'Professional Headshot')
+        st.image("Documents/pic Small.png")
     with col2:
         st.title(NAME)
         st.write(DESCRIPTION)

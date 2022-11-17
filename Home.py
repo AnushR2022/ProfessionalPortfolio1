@@ -137,7 +137,7 @@ if selected == "Resume":
     col1, col2 = st.columns(2, gap = "small")   
 
     with col1:
-        st.image("Documents/pic Small.png")
+        st.empty()
     with col2:
         st.title(NAME)
         st.write(DESCRIPTION)

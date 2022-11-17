@@ -137,7 +137,8 @@ if selected == "Resume":
     col1, col2 = st.columns(2, gap = "small")   
 
     with col1:
-        image = Image.open('/Volumes/ExDrive/Images/pic Small.png')
+        image = Image.open('./Documents/General UIUC/pic Small.png')
+        st.image(image, caption = 'Professional Headshot')
     with col2:
         st.title(NAME)
         st.write(DESCRIPTION)
